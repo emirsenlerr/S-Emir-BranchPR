@@ -1,7 +1,7 @@
 ﻿using ConsoleApp1;
 
 Console.WriteLine("-------------------------");
-Console.WriteLine("Merhaba");
+Console.WriteLine("Merhaba Hoşgeldiniz");
 Console.WriteLine("İsminizi Giriniz: ");
 string name = Console.ReadLine();
 
