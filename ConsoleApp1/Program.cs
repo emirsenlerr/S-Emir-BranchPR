@@ -2,6 +2,9 @@
 
 Console.WriteLine("İsminizi Giriniz: ");
 string name = Console.ReadLine();
- 
-Person p = new Person(19, name);
+
+Console.WriteLine("Yaşınızı Giriniz: ");
+int yas = int.Parse(Console.ReadLine());
+
+Person p = new Person(yas, name);
 
