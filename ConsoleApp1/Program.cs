@@ -1,5 +1,6 @@
 ﻿using ConsoleApp1;
 
+Console.WriteLine("-------------------------");
 Console.WriteLine("Merhaba");
 Console.WriteLine("İsminizi Giriniz: ");
 string name = Console.ReadLine();
@@ -10,3 +11,4 @@ int yas = int.Parse(Console.ReadLine());
 
 Person p = new Person(yas, name);
 Console.WriteLine("Bitti");
+Console.WriteLine("-------------------------");
